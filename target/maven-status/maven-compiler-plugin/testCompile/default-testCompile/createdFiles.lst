@@ -1,0 +1,4 @@
+com/amazon/qa/tests/HomePageTest.class
+com/amazon/qa/tests/AddressPageTest.class
+com/amazon/qa/tests/SearchPageTest.class
+com/amazon/qa/tests/LoginPageTest.class

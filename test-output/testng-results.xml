@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-12T14:08:01 IST" name="AmazonApplicationTest" finished-at="2020-05-12T14:08:28 IST" duration-ms="26529">
+    <groups>
+    </groups>
+    <test started-at="2020-05-12T14:08:01 IST" name="Amozon Application" finished-at="2020-05-12T14:08:28 IST" duration-ms="26529">
+      <class name="com.amazon.qa.tests.AddressPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.tests.AddressPageTest@7fc2413d]" started-at="2020-05-12T14:08:02 IST" name="setup" finished-at="2020-05-12T14:08:20 IST" duration-ms="18115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addressTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.amazon.qa.tests.AddressPageTest@7fc2413d]" started-at="2020-05-12T14:08:20 IST" name="addressTest" data-provider="getAmazonTestData" finished-at="2020-05-12T14:08:28 IST" duration-ms="7320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shanu kansal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[75 Gandhi Nagar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addressTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.amazon.qa.tests.AddressPageTest@7fc2413d]" started-at="2020-05-12T14:08:28 IST" name="teardown" finished-at="2020-05-12T14:08:28 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.amazon.qa.tests.AddressPageTest -->
+    </test> <!-- Amozon Application -->
+  </suite> <!-- AmazonApplicationTest -->
+</testng-results>

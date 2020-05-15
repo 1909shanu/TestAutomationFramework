@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="184.814" tests="9" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="13"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/sudhanshukansal/Documents/Java/TestAutomationFramework/target/test-classes:/Users/sudhanshukansal/Documents/Java/TestAutomationFramework/target/classes:/Users/sudhanshukansal/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/sudhanshukansal/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/sudhanshukansal/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/sudhanshukansal/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/sudhanshukansal/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/sudhanshukansal/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/sudhanshukansal/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/sudhanshukansal/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/sudhanshukansal/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/sudhanshukansal/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/sudhanshukansal/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/sudhanshukansal/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/sudhanshukansal/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/sudhanshukansal/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/sudhanshukansal/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/sudhanshukansal/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/sudhanshukansal/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/sudhanshukansal/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/sudhanshukansal/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/sudhanshukansal/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/sudhanshukansal/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/sudhanshukansal/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/sudhanshukansal/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/sudhanshukansal/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/sudhanshukansal/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/sudhanshukansal/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/sudhanshukansal/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/sudhanshukansal/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/sudhanshukansal/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/sudhanshukansal/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/sudhanshukansal/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/sudhanshukansal/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/sudhanshukansal/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/sudhanshukansal/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/sudhanshukansal/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/sudhanshukansal/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/sudhanshukansal/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/sudhanshukansal/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/sudhanshukansal/.m2/repository/org/apache/poi/poi-scratchpad/4.1.2/poi-scratchpad-4.1.2.jar:/Users/sudhanshukansal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/sudhanshukansal/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/sudhanshukansal/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/sudhanshukansal/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/sudhanshukansal/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/sudhanshukansal/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/sudhanshukansal/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/sudhanshukansal/Documents/Java/TestAutomationFramework/target/surefire/surefirebooter6045862323741802492.jar /Users/sudhanshukansal/Documents/Java/TestAutomationFramework/target/surefire 2020-05-15T11-32-39_355-jvmRun1 surefire1118991707976973244tmp surefire_0581609105783809471tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/sudhanshukansal/Documents/Java/TestAutomationFramework/target/test-classes:/Users/sudhanshukansal/Documents/Java/TestAutomationFramework/target/classes:/Users/sudhanshukansal/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/sudhanshukansal/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/sudhanshukansal/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/sudhanshukansal/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/sudhanshukansal/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/sudhanshukansal/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/sudhanshukansal/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/sudhanshukansal/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/sudhanshukansal/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/sudhanshukansal/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/sudhanshukansal/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/sudhanshukansal/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/sudhanshukansal/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/sudhanshukansal/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/sudhanshukansal/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/sudhanshukansal/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/sudhanshukansal/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/sudhanshukansal/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/sudhanshukansal/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/sudhanshukansal/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/sudhanshukansal/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/sudhanshukansal/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/sudhanshukansal/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/sudhanshukansal/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/sudhanshukansal/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/sudhanshukansal/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/sudhanshukansal/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/sudhanshukansal/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/sudhanshukansal/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/sudhanshukansal/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/sudhanshukansal/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/sudhanshukansal/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/sudhanshukansal/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/sudhanshukansal/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/sudhanshukansal/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/sudhanshukansal/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/sudhanshukansal/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/sudhanshukansal/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/sudhanshukansal/.m2/repository/org/apache/poi/poi-scratchpad/4.1.2/poi-scratchpad-4.1.2.jar:/Users/sudhanshukansal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/sudhanshukansal/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/sudhanshukansal/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/sudhanshukansal/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/sudhanshukansal/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/sudhanshukansal/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/sudhanshukansal/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/sudhanshukansal"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/sudhanshukansal/Documents/Java/TestAutomationFramework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/sudhanshukansal/Documents/Java/TestAutomationFramework/target/surefire/surefirebooter6045862323741802492.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="user.name" value="sudhanshukansal"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/sudhanshukansal/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/zn/9lxb4lx11kn3g9q0lss4kn_w0000gr/T/"/>
+    <property name="java.version" value="13.0.2"/>
+    <property name="user.dir" value="/Users/sudhanshukansal/Documents/Java/TestAutomationFramework"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/sudhanshukansal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="13.0.2+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="57.0"/>
+  </properties>
+  <testcase name="homePagetitleTest" classname="com.amazon.qa.tests.HomePageTest" time="0.017"/>
+  <testcase name="labelTest" classname="com.amazon.qa.tests.HomePageTest" time="0.069"/>
+  <testcase name="cartPageTest" classname="com.amazon.qa.tests.HomePageTest" time="11.812"/>
+  <testcase name="searchPageTest" classname="com.amazon.qa.tests.HomePageTest" time="9.346"/>
+  <testcase name="addressTest" classname="com.amazon.qa.tests.AddressPageTest" time="8.146"/>
+  <testcase name="titleTest" classname="com.amazon.qa.tests.LoginPageTest" time="2.351"/>
+  <testcase name="logoTest" classname="com.amazon.qa.tests.LoginPageTest" time="2.906"/>
+  <testcase name="loginTest" classname="com.amazon.qa.tests.LoginPageTest" time="8.007"/>
+  <testcase name="listTest" classname="com.amazon.qa.tests.SearchPageTest" time="20.815">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[@src=&apos;https://m.media-amazon.com/images/I/61zLDSMp+5L._AC_UL320_.jpg&apos;]&quot;}&#10;  (Session info: chrome=81.0.4044.138)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;1035-IND&apos;, ip: &apos;2409:4053:61f:e598:a9fd:37bc:f0f4:af55%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.3&apos;, java.version: &apos;13.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/zn/9lxb4lx11kn...}, goog:chromeOptions: {debuggerAddress: localhost:64017}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 9775d627869646b4ba4052cd6f1a1134&#10;*** Element info: {Using=xpath, value=//img[@src=&apos;https://m.media-amazon.com/images/I/61zLDSMp+5L._AC_UL320_.jpg&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//img[@src='https://m.media-amazon.com/images/I/61zLDSMp+5L._AC_UL320_.jpg']"}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '1035-IND', ip: '2409:4053:61f:e598:a9fd:37bc:f0f4:af55%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/zn/9lxb4lx11kn...}, goog:chromeOptions: {debuggerAddress: localhost:64017}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9775d627869646b4ba4052cd6f1a1134
+*** Element info: {Using=xpath, value=//img[@src='https://m.media-amazon.com/images/I/61zLDSMp+5L._AC_UL320_.jpg']}
+	at com.amazon.qa.tests.SearchPageTest.listTest(SearchPageTest.java:41)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://www.amazon.com/'
+Navigated to:'https://www.amazon.com/'
+Trying to find Element By : By.linkText: Sign in
+Found Element By : By.linkText: Sign in
+Trying to click on: [[ChromeDriver: chrome on MAC (9775d627869646b4ba4052cd6f1a1134)] -> link text: Sign in]
+Clicked on: [[ChromeDriver: chrome on MAC (9775d627869646b4ba4052cd6f1a1134)] -> link text: Sign in]
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.id: continue
+Found Element By : By.id: continue
+Trying to click on: [[ChromeDriver: chrome on MAC (9775d627869646b4ba4052cd6f1a1134)] -> id: continue]
+Clicked on: [[ChromeDriver: chrome on MAC (9775d627869646b4ba4052cd6f1a1134)] -> id: continue]
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.id: signInSubmit
+Found Element By : By.id: signInSubmit
+Trying to click on: [[ChromeDriver: chrome on MAC (9775d627869646b4ba4052cd6f1a1134)] -> id: signInSubmit]
+Clicked on: [[ChromeDriver: chrome on MAC (9775d627869646b4ba4052cd6f1a1134)] -> id: signInSubmit]
+Trying to find Element By : By.id: twotabsearchtextbox
+Found Element By : By.id: twotabsearchtextbox
+Trying to find Element By : By.xpath: //input[@type='submit' and @class='nav-input']
+Found Element By : By.xpath: //input[@type='submit' and @class='nav-input']
+Trying to click on: [[ChromeDriver: chrome on MAC (9775d627869646b4ba4052cd6f1a1134)] -> xpath: //input[@type='submit' and @class='nav-input']]
+Clicked on: [[ChromeDriver: chrome on MAC (9775d627869646b4ba4052cd6f1a1134)] -> xpath: //input[@type='submit' and @class='nav-input']]
+Trying to find Element By : By.xpath: //img[@src='https://m.media-amazon.com/images/I/61zLDSMp+5L._AC_UL320_.jpg']
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@src='https://m.media-amazon.com/images/I/61zLDSMp+5L._AC_UL320_.jpg']"}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '1035-IND', ip: '2409:4053:61f:e598:a9fd:37bc:f0f4:af55%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/zn/9lxb4lx11kn...}, goog:chromeOptions: {debuggerAddress: localhost:64017}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9775d627869646b4ba4052cd6f1a1134
+*** Element info: {Using=xpath, value=//img[@src='https://m.media-amazon.com/images/I/61zLDSMp+5L._AC_UL320_.jpg']}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 31403
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1589522708.154][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
+May 15, 2020 11:35:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1589522710.007][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522710.108][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522710.210][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522710.810][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522710.913][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522711.014][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522711.195][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522711.299][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522711.400][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522711.502][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522711.603][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522711.706][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522713.220][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522713.387][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522713.489][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522713.591][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522713.852][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522713.954][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522719.026][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522719.500][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522719.604][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522719.706][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522719.808][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522719.910][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522720.012][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522720.114][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522720.218][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522721.416][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522721.638][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522721.808][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522721.964][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522722.313][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522722.754][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522722.857][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522722.959][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522723.061][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522723.163][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522723.265][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522723.367][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522723.470][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522723.574][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522723.678][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522723.781][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522723.882][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522723.984][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522724.086][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522724.191][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522724.293][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522724.398][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522724.502][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522724.610][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522724.712][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522724.814][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522724.916][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522725.019][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522725.121][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522725.226][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522725.330][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522725.875][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522726.018][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522726.120][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522726.222][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522726.325][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522726.431][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522726.534][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522726.668][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522726.770][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522726.874][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522726.977][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522727.080][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522727.270][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522727.372][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522727.611][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522727.715][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589522727.823][SEVERE]: Timed out receiving message from renderer: 0.100
+java.io.FileNotFoundException: /Users/sudhanshukansal/Documents/Java/TestAutomationFramework/screenshots/1589522748685.png (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:292)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:192)
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:180)
+	at com.google.common.io.ByteSource.copyTo(ByteSource.java:268)
+	at com.google.common.io.Files.copy(Files.java:319)
+	at com.amazon.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:65)
+	at com.amazon.qa.util.WebEventListener.onException(WebEventListener.java:60)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
+	at com.sun.proxy.$Proxy7.onException(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
+	at com.sun.proxy.$Proxy8.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at com.amazon.qa.Pages.SearchPage.validateSearchImage(SearchPage.java:31)
+	at com.amazon.qa.tests.SearchPageTest.listTest(SearchPageTest.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]></system-err>
+  </testcase>
+</testsuite>

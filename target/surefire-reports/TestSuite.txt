@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 184.814 s <<< FAILURE! - in TestSuite
+listTest(com.amazon.qa.tests.SearchPageTest)  Time elapsed: 20.815 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//img[@src='https://m.media-amazon.com/images/I/61zLDSMp+5L._AC_UL320_.jpg']"}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '1035-IND', ip: '2409:4053:61f:e598:a9fd:37bc:f0f4:af55%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/zn/9lxb4lx11kn...}, goog:chromeOptions: {debuggerAddress: localhost:64017}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9775d627869646b4ba4052cd6f1a1134
+*** Element info: {Using=xpath, value=//img[@src='https://m.media-amazon.com/images/I/61zLDSMp+5L._AC_UL320_.jpg']}
+	at com.amazon.qa.tests.SearchPageTest.listTest(SearchPageTest.java:41)
+
